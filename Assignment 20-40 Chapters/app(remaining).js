@@ -165,3 +165,47 @@ function sqrt(hyp){
 // var string=prompt("Enter a string");
 // var letter=prompt("Enter a latter");
 // console.log("There are " + counting(string,letter) + " " +letter +" in " + string);
+
+
+// JAVASCRIPT Assignment  # 38-44
+//FUNCTIONS, SWITCH STATEMENTS, WHILE… DOWHILE LOOPS
+
+// Question #1
+// var a = +prompt("Enter a number :");
+// var b = Number(prompt("Enter power of first number :"));
+// console.log(Math.pow(a,b));
+
+// Question #2
+// function check_leapyear(){
+//     var year;
+//     year = +prompt("Enter Leap Year")
+//     if( (0 == year % 4) && (0 != year % 100) || (0 == year % 400) )
+//     {
+//         alert(year+" is a leap year");
+//     }
+//     else
+//     {
+//         alert(year+" is not a leap year");
+//     }
+// }
+// check_leapyear()
+
+// Question #3
+var side1 = 5;
+var side2 = 6;
+var side3 = 7;
+
+function semi_perimeter(side1, side2, side3) {
+  var s = (side1 + side2 + side3) / 2;
+//   var result;
+//   s = result;
+  return s;
+}
+// areaOfTriangle()
+
+function areaOfTriangle() {
+  var area = Math.sqrt(semi_perimeter() * ((semi_perimeter() - side1) * (semi_perimeter() - side2) * (semi_perimeter() - side3)));
+  console.log(area);
+}
+semi_perimeter();
+
