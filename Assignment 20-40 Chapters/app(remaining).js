@@ -376,20 +376,21 @@
 // check_leapyear()
 
 // Question #3
+//var s;
 // var side1 = 5;
 // var side2 = 6;
 // var side3 = 7;
 
 // function semi_perimeter(side1, side2, side3) {
-//   var s = (side1 + side2 + side3) / 2;
-// //   var result;
-// //   s = result;
-//   return s;
+//    s = (side1 + side2 + side3) / 2;
 // }
-// // areaOfTriangle()
+// semi_perimeter(side1, side2, side3);
 
-// function areaOfTriangle() {
-//   var area = Math.sqrt(semi_perimeter() * ((semi_perimeter() - side1) * (semi_perimeter() - side2) * (semi_perimeter() - side3)));
-//   console.log(area);
+// function areaOfTriangle(s,side1,side2,side3) {
+//     var area =  s*(s-side1)*(s-side2)*(s-side3);
+//     console.log(area);
 // }
-// semi_perimeter();
+// areaOfTriangle(s,side1,side2,side3);
+
+
+
